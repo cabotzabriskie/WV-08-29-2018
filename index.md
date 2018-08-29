@@ -83,7 +83,9 @@ and our administrator may contact you if we need any extra information.</h4>
 
 {% comment %}
   LOCATION
-
+  West Virginia University
+  Morgantown, West Virginia
+  
   This block displays the address and links to maps showing directions
   if the latitude and longitude of the workshop have been set.  You
   can use https://itouchmap.com/latlong.html to find the lat/long of an
@@ -102,7 +104,9 @@ and our administrator may contact you if we need any extra information.</h4>
 
 {% comment %}
   DATE
-
+  
+  08-29-2018
+  
   This block displays the date and links to Google Calendar.
 {% endcomment %}
 {% if page.humandate %}
