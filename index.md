@@ -83,8 +83,8 @@ and our administrator may contact you if we need any extra information.</h4>
 
 {% comment %}
   LOCATION
-  West Virginia University
-  Morgantown, West Virginia
+  {West Virginia University
+  Morgantown, West Virginia}
   
   This block displays the address and links to maps showing directions
   if the latitude and longitude of the workshop have been set.  You
@@ -93,7 +93,8 @@ and our administrator may contact you if we need any extra information.</h4>
 {% endcomment %}
 {% if page.latlng %}
 <p id="where">
-  <strong>Where:</strong>
+  <strong>Where:</strong> West Virginia University
+	Morgantown, WV
   {{page.address}}.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
@@ -104,14 +105,12 @@ and our administrator may contact you if we need any extra information.</h4>
 
 {% comment %}
   DATE
-  
-  08-29-2018
-  
+    
   This block displays the date and links to Google Calendar.
 {% endcomment %}
 {% if page.humandate %}
 <p id="when">
-  <strong>When:</strong>
+  <strong>When:</strong> 8-29-2018
   {{page.humandate}}.
   {% include workshop_calendar.html %}
 </p>
