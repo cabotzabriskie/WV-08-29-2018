@@ -94,7 +94,6 @@ and our administrator may contact you if we need any extra information.</h4>
 {% if page.latlng %}
 <p id="where">
   <strong>Where:</strong> West Virginia University
-	Morgantown, WV
   {{page.address}}.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
